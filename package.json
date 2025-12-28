@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/books",
+  "name": "@zos-apps/books",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -10,10 +10,47 @@
     "icon": "📚",
     "category": "media",
     "description": "Read ebooks",
-    "permissions": ["storage.local"],
-    "window": { "defaultSize": { "width": 900, "height": 700 }, "resizable": true }
+    "permissions": [
+      "storage.local"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 900,
+        "height": 700
+      },
+      "resizable": true
+    }
   },
-  "scripts": { "build": "tsup", "dev": "tsup --watch" },
-  "peerDependencies": { "react": "^18.0.0", "react-dom": "^18.0.0" },
-  "devDependencies": { "@types/react": "^18.3.0", "@types/react-dom": "^18.3.0", "tsup": "^8.3.5", "typescript": "^5.7.2" }
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "description": "Read ebooks",
+  "homepage": "https://zos-apps.github.io/books",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/books.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/books/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "books",
+    "macos",
+    "desktop"
+  ]
 }
