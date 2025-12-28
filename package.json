@@ -19,7 +19,22 @@
         "height": 700
       },
       "resizable": true
-    }
+    },
+    "about": "Digital library for reading and organizing your ebook collection.",
+    "help": [
+      "Add books to library",
+      "Click to start reading",
+      "Use bookmarks to save position"
+    ],
+    "docs": "https://zos-apps.github.io/books",
+    "site": "https://github.com/zos-apps/books",
+    "features": [
+      "EPUB support",
+      "Reading progress sync",
+      "Bookmarks",
+      "Highlights",
+      "Library organization"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -52,5 +67,13 @@
     "books",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
