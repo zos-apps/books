@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface BooksProps { onClose: () => void; }
 
@@ -10,7 +10,7 @@ const BOOKS = [
   { title: 'Snow Crash', author: 'Neal Stephenson', cover: '📓', progress: 23 },
 ];
 
-const Books: React.FC<BooksProps> = ({ onClose }) => {
+const Books: React.FC<BooksProps> = ({ onClose: _onClose }) => {
   const [selected, setSelected] = useState<string | null>(null);
 
   return (
